@@ -1,0 +1,72 @@
+.ItmDetailBox {
+	display: flex;
+	flex-direction: row;
+  width: 100vw;
+  height: 80vh;
+}
+.ItmDetailBox__left{
+  width: 100vw;
+  height: 80vh;
+}
+.ItmDetailBox__Img {
+  padding: 20%;
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+.ItmDetailBox__right {
+  margin-top: 17%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.ItmDetailBox__category {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: rgb(197, 197, 197);
+}
+.ItmDetailBox__title {
+  font-size: 2rem;
+  font-weight: 500;
+  width: 80%;
+  margin-bottom: 1.5rem;
+}
+.ItmDetailBox__price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.ItmDetailBox__description {
+  font-size: small;
+  color: rgb(197, 197, 197);
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+.buttons {
+  width: 100%;
+}
+.ItmDetailBox__cartIn {
+  font-size: large;
+  margin: 0 0.5rem 0 0.5rem;
+  width: 22vw;
+  height: 5vh;
+  border: 2px solid midnightblue;
+  border-radius: 5px;
+  background-color:white;
+}
+.ItmDetailBox__button {
+  font-size: large;
+  margin: 0 0.5rem 0 0.5rem;
+  width: 22vw;
+  height: 5vh;
+  border: 2px solid midnightblue;
+  border-radius: 5px;
+  background-color:midnightblue;
+  color: white;
+}

@@ -1,0 +1,61 @@
+.contentList {
+	margin-top: 1rem;
+	width: 100%;
+}
+.contentList_count {
+	margin-left: 8%;
+	color: midnightblue;
+}
+.contentList_Box {
+	margin-top: 1rem;
+	margin-left: 6%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+	border: 1px solid midnightblue;
+  border-radius: 5px;
+	width: 19vw;
+  height: 30vh;
+}
+
+.ListItm_img {
+  object-fit: contain;
+  height: 60%;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.ListItm_title {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+}
+
+.ListItm_buttonsAndPrice {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ListItm_Button {
+  height: 3vh;
+  width: 60%;
+  border: 1px solid midnightblue;
+  color:midnightblue ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ListItm_Price {
+  font-weight: 600;
+  text-align: center;
+  width: 30%;
+}
