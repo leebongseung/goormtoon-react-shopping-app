@@ -1,10 +1,10 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import { addCntCart, addItmCart } from '../store/cart'
+import { addItmCart } from '../store/cart'
 import styles from './ContentList.module.css'
 
-const ContentListsItem = ({ data, setCartItem }) => {
+const ContentListsItem = ({ data }) => {
 	let navigate = useNavigate()
 	let dispatch = useDispatch()
 	let cart = useSelector((state) => state.cart.products)
@@ -15,9 +15,7 @@ const ContentListsItem = ({ data, setCartItem }) => {
 		const isFind =
 			cart === undefined ? false : cart.find((itm) => itm.id === data.id)
 		console.log(isFind)
-		isFind
-			? dispatch(addCntCart(data.id))
-			: dispatch(addItmCart({ ...data, count }))
+		isFind ? undefined : dispatch(addItmCart({ ...data, count }))
 	}
 
 	return (

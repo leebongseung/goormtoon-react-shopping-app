@@ -1,0 +1,27 @@
+.CartCheckoutBox{
+  height: 100%;
+  text-align: center;
+}
+
+.CartCheckoutBox__img{
+  margin-top: 10%;
+  margin-bottom: 2rem;
+  height: 25%;
+  width: 50%;
+}
+
+.CartCheckoutBox__h2{
+  font-size: xx-large;
+}
+.CartCheckoutBox__info{
+  font-size: small;
+  margin-bottom: 1rem;
+}
+.CartCheckoutBox__HomeButton{
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: large;
+  cursor: pointer;
+}

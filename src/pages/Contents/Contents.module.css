@@ -1,27 +1,28 @@
-.products{
-  margin: 0 2rem 0 2rem
+.products {
+	margin: 0 2rem 0 2rem;
+	min-height: 100%;
 }
 .h1 {
-  text-align: center;
+	text-align: center;
 }
 .categories {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
-.button{
-  font-size: large;
-  margin: 0 0.5rem 0 0.5rem;
-  width: 15vw;
-  height: 5vh;
-  border: 2px solid midnightblue;
-  border-radius: 5px;
+.button {
+	cursor: pointer;
+	font-size: large;
+	margin: 0 0.5rem 0 0.5rem;
+	width: 15vw;
+	height: 5vh;
+	border: 2px solid midnightblue;
+	border-radius: 5px;
 }
 
 .selected {
-  background-color:midnightblue;
-  color: white;
+	background-color: midnightblue;
+	color: white;
 }
 .unselected {
-  background-color:white;
+	background-color: white;
 }
-
